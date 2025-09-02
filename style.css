@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap);
+
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: black;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #FD7701 50%, black 50%);
+}
+
+.fonte{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.texto {
+    color: white;
+    text-align: center;
+    z-index: 99;
+    margin: 0 auto;
+    position: absolute;
+    top: 5%;
+    left: 45%;  
+    transform: translate(-50% -50%);
+    letter-spacing: 0.2rem;
+}
+
+.container{
+    display: grid;
+    z-index: 1;
+    padding: 15px;
+    background-color: #1E1E1E;
+    opacity: 50%;
+    width: 1650px;
+    height: 100px;
+}
+
+#mclaren{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 3%;
+    left: 88%;
+}
+
+#racing{
+    text-align: start;
+    position: absolute;
+    height: auto;
+    top: 4%;
+    left: 25%;
+}
+
+#automotive{
+    text-align: start;
+    position: absolute;
+    height: auto;
+    top: 4%;
+    left: 35%;
+}
+
+#investors{
+    text-align: start;
+    position: absolute;
+    height: auto;
+    top: 4%;
+    left: 47.5%;
+}    
+
+#careers{
+    text-align: start;
+    position: absolute;
+    height: auto;
+    top: 4%;
+    left: 60%;
+}
+
+#store{
+    text-align: start;
+    position: absolute;
+    height: auto;
+    top: 4%;
+    left: 70%;
+}
+
+#barra{
+    height: auto;
+    position: absolute;
+    top: 4%;
+    right: 97%;
+}
+
+.carro{
+    width: 600px;
+    height: auto;
+    position: absolute;
+    top: 18%;
+    left: 34.15%;
+}    
+
+.linha{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 7%;
+    left: 24%;
+    z-index: 9;
+}
+
+button{   
+    background-color: #FF9437;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    top: 80%;
+    left: 28%;
+}
+
+#indy{
+    position: absolute;
+    left: 39%;
+}
+
+#e{
+    position: absolute;
+    left: 50.5%;
+}
+
+#gaming{
+    position: absolute;
+    left: 61.5%;
+}
